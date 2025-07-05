@@ -1,5 +1,5 @@
 #root {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   text-align: center;
 }
@@ -24,10 +24,154 @@
   align-items: center;
   font-size: 0.9rem;
   text-align: center;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #242424;
+}
+
+.skill-tile:hover {
+  border-color: white;
 }
 
 .skill-tile img {
   width: 36px;
   height: 36px;
   margin-bottom: 8px;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 50%;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-card {
+    flex-wrap: wrap;
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #424242;
+  border-radius: 0.5rem;
+  background-color: #424242;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s;
+  width: 100%;
+  /* Take full width of grid cell */
+  min-height: 10rem;
+  /* Force consistent height */
+  box-sizing: border-box;
+  /* Ensure padding doesn’t overflow */
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.project-text {
+  flex: 1;
+  padding-right: 1rem;
+  text-align: left;
+}
+
+.project-text h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-text a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.project-text a:hover {
+  text-decoration: underline;
+}
+
+.project-img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.project-img img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-link:hover .project-card {
+  animation: 0.5s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #585858;
+}
+
+.edu-image {
+  width: auto;
+  height: 50px;
+  margin-bottom: 0.75rem;
+  border-radius: 2px;
+}
+
+.cert-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #424242;
+  border-radius: 0.5rem;
+  background-color: #2c2c2c;
+  text-align: center;
+  transition: box-shadow 0.2s;
+  text-decoration: none;
+  color: inherit;
+  width: 70%;
+  margin: 1rem auto;
+}
+
+.cert-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #bdbdbd;
+}
+
+.cert-image {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.75rem;
+}
+
+.cert-title {
+  font-weight: 600;
+}
+
+.contact-div {
+  display: flex;
+  align-self: center;
+  gap: 2rem;
 }
