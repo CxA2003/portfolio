@@ -1,12 +1,51 @@
-# React + Vite
+# 🌐 Cesar Fernandez — Data Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal data portfolio!
+This repository contains the projects and case studies showcased on my website, where I apply data analysis, visualization, and machine learning to solve real-world problems.
 
-Currently, two official plugins are available:
+🔗 **Live Portfolio:** [https://cesarfp.netlify.app](https://cesarfp.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 About Me
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I'm a data analyst with a background in web development and a passion for uncovering insights from data. After completing the Data Science Bootcamp at General Assembly, I’ve focused on building data-driven solutions that are clear, actionable, and accessible to technical and non-technical audiences alike.
+
+My experience spans:
+
+* Exploratory data analysis
+* Data wrangling and cleaning
+* Statistical modeling and predictive analytics
+* Dashboard design and storytelling with data
+
+---
+
+## 💼 Featured Projects
+
+* **Cyclistic Bike-Share Analysis**
+  Used R to analyze user behavior differences between casual riders and members. Delivered actionable insights and visualizations to support a membership marketing strategy.
+
+* **Election Donations Analysis**
+  Processed and analyzed FEC data with PySpark on Databricks to reveal trends in campaign contributions. Focused on transparency, large-scale data handling, and political insights.
+
+---
+
+## 🧰 Tech Stack
+
+* **Languages:** Python, R, SQL, HTML/CSS
+* **Libraries & Tools:** pandas, dplyr, ggplot2, seaborn, scikit-learn, matplotlib
+* **Platforms:** Databricks, Tableau, GitHub, Netlify
+* **Databases:** PostgreSQL, BigQuery
+
+---
+
+## 📫 Contact
+
+Feel free to reach out or connect:
+
+* 📧 Email: [cesarfp.dev@gmail.com](mailto:cesarfp2020@gmail.com)
+* 💼 LinkedIn: [linkedin.com/in/cesar-a-fernandez](https://www.linkedin.com/in/cesar-a-fernandez/)
+
+---
+
+> Thanks for visiting! Feedback and collaboration ideas are always welcome. 🙌
